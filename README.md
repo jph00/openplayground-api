@@ -3,10 +3,7 @@
 
 This is an unoffical API wrapper for the website [OpenPlayground](https://nat.dev), which provides access to a wide array of AI models for free, including ChatGPT, GPT-4, and Claude.
 
-## Notice:
-OpenPlayground has recently announced that they are going to starting deleting accounts that access their API via automated means (probably as as a direct response to this library). You should be fine as long as you don't send to many requests, since this library is able to bypass their bot detection by spoofing the `X-Session` header. They've also recently been requiring SMS verification upon signup, but this can easily be bypassed by signing in using a Google account. 
-
-![screenshot from their discord server](https://media.discordapp.net/attachments/1072352756481929316/1088019955322196048/image.png)
+(Since nat.dev has started charging for access, they've removed the rule that API access isn't allowed.)
 
 ## Features:
 This library has the following abilities:
